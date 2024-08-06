@@ -8,7 +8,7 @@ function M.setup()
     vim.o.background = "dark"
     vim.o.termguicolors = true
 
-    vim.g.colors_name = "my_colorscheme"
+    vim.g.colors_name = "matcolor"
 
     -- Define your colors here
     vim.cmd("highlight Normal guifg=#00FF00 guibg=#000000")
