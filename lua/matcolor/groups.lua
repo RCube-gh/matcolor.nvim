@@ -369,7 +369,7 @@ local function setup(configs)
       LspReferenceRead = { fg = colors.green, },
       LspReferenceWrite = { fg = colors.green, },
       LspCodeLens = { fg = colors.green, },
-      LspInlayHint = { fg = "#969696", bg = "#2f3146" },
+      LspInlayHint = { fg = colors.fg, bg = colors.bg, },
 
       --LSP Saga
       LspFloatWinNormal = { fg = colors.fg, },
@@ -484,8 +484,8 @@ local function setup(configs)
       RainbowDelimitergreen = {fg = colors.green },
 
       -- mini.indentscope
-      MiniIndentscopeSymbol = { fg = "#B5629B" },
-      MiniIndentscopeSymbolOff = { fg = "#B5629B" },
+      MiniIndentscopeSymbol = { fg = colors.fg },
+      MiniIndentscopeSymbolOff = { fg = colors.fg },
 
       -- mini.icons
       MiniIconsAzure = { fg = colors.green },
@@ -538,13 +538,13 @@ local function setup(configs)
       -- Notify
       NotifyInfoIcon = { fg = colors.green },
       NotifyInfoTitle = { fg = colors.green },
-      NotifyInfoBorder = { fg = "#2C453F" },
+      NotifyInfoBorder = { fg = colors.green},
       NotifyErrorIcon = { fg = colors.green },
       NotifyErrorTitle = { fg = colors.green },
-      NotifyErrorBorder = { fg = "#DD6E6B" },
+      NotifyErrorBorder = { fg = colors.green },
       NotifyWarnIcon = { fg = colors.green },
       NotifyWarnTitle = { fg = colors.green },
-      NotifyWarnBorder = { fg = "#785637" },
+      NotifyWarnBorder = { fg = colors.green },
    }
 end
 
