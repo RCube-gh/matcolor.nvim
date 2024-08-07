@@ -1,11 +1,11 @@
 ---@class Palette
 return {
 	bg = "#000000",
-	fg = "#00FF00",
-	selection = "#00FF00",
-	comment = "#00FF00",
-	visual = "#00FF00",
-	green = "#00FF00",
-	white = "#00FF00",
+	fg = "#00AA00",
+	selection = "#00AA00",
+	comment = "#00AA00",
+	visual = "#00AA00",
+	green = "#00AA00",
+	white = "#00AA00",
 	black = "#000000",
 }
