@@ -147,7 +147,7 @@ local function load(theme)
 	vim.cmd([[
         augroup DisableRainbowDelimiters
             autocmd!
-            autocmd ColorScheme matcolor lua require('rainbow-delimiters').enable()
+            autocmd ColorScheme matcolor lua require('rainbow-delimiters').disable()
         augroup END
     ]])
 
