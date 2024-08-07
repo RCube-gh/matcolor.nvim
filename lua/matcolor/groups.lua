@@ -73,13 +73,13 @@ local function setup(configs)
       Underlined = { fg = colors.green, underline = true, },
 
       Cursor = { reverse = true, },
-      CursorLineNr = { fg = colors.fg, bold = true, },
+      CursorLineNr = { fg = colors.black, bold = true, },
 
       SignColumn = { bg = colors.bg, },
 
       Conceal = { fg = colors.comment, },
       CursorColumn = { bg = colors.black, },
-      CursorLine = { bg = colors.selection, },
+      CursorLine = { bg = colors.black, },
       ColorColumn = { bg = colors.selection, },
 
       StatusLine = { fg = colors.green, bg = colors.black, },
