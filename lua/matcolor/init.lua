@@ -144,6 +144,12 @@ local function load(theme)
 	vim.cmd("highlight Type guifg=#00FF00 guibg=#000000")
 	vim.cmd("highlight Special guifg=#00FF00 guibg=#000000")
 	vim.cmd("highlight Underlined guifg=#00FF00 guibg=#000000")
+	vim.cmd([[
+        augroup DisableRainbowDelimiters
+            autocmd!
+            autocmd ColorScheme matcolor lua require('rainbow-delimiters').disable()
+        augroup END
+    ]])
 
 	apply(get_configs())
 end
