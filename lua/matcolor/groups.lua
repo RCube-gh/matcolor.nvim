@@ -102,7 +102,7 @@ local function setup(configs)
       IncSearch = { fg = colors.green, bg = colors.comment, },
       LineNr = { fg = colors.comment, },
       MatchParen = { fg = colors.fg, underline = true, },
-      NonText = { fg = colors.nontext, },
+      NonText = { fg = colors.green, },
       Pmenu = { fg = colors.green, bg = colors.menu, },
       PmenuSel = { fg = colors.green, bg = colors.selection, },
       PmenuSbar = { bg = colors.bg, },
@@ -110,7 +110,7 @@ local function setup(configs)
 
       Question = { fg = colors.green, },
       QuickFixLine = { fg = colors.black, bg = colors.green, },
-      SpecialKey = { fg = colors.nontext, },
+      SpecialKey = { fg = colors.green, },
 
       SpellBad = { fg = colors.green, underline = true, },
       SpellCap = { fg = colors.green, },
@@ -268,7 +268,7 @@ local function setup(configs)
       diffAdded = { fg = colors.green, },
       diffRemoved = { fg = colors.green, },
       diffFileId = { fg = colors.green, bold = true, reverse = true, },
-      diffFile = { fg = colors.nontext, },
+      diffFile = { fg = colors.green, },
       diffNewFile = { fg = colors.green, },
       diffOldFile = { fg = colors.green, },
 
@@ -308,7 +308,7 @@ local function setup(configs)
       NvimTreeGitNew = { fg = colors.green, },
       NvimTreeImageFile = { fg = colors.green, },
       NvimTreeFolderIcon = { fg = colors.green, },
-      NvimTreeIndentMarker = { fg = colors.nontext, },
+      NvimTreeIndentMarker = { fg = colors.green, },
       NvimTreeEmptyFolderName = { fg = colors.comment, },
       NvimTreeFolderName = { fg = colors.fg, },
       NvimTreeSpecialFile = { fg = colors.green, underline = true, },
@@ -326,7 +326,7 @@ local function setup(configs)
       NeoTreeGitModified = { fg = colors.green },
       NeoTreeGitUntracked = { fg = colors.green },
       NeoTreeDirectoryIcon = { fg = colors.green },
-      NeoTreeIndentMarker = { fg = colors.nontext },
+      NeoTreeIndentMarker = { fg = colors.green },
       NeoTreeDotfile = { fg = colors.comment },
 
       -- Bufferline
@@ -397,14 +397,14 @@ local function setup(configs)
 
       -- barbar
       BufferVisibleTarget = { fg = colors.green },
-      BufferTabpages = { fg = colors.nontext, bg = colors.black, bold = true },
-      BufferTabpageFill = { fg = colors.nontext, bg = colors.black },
+      BufferTabpages = { fg = colors.green, bg = colors.black, bold = true },
+      BufferTabpageFill = { fg = colors.green, bg = colors.black },
       BufferCurrentSign = { fg = colors.green },
       BufferCurrentTarget = { fg = colors.green },
       BufferInactive = { fg = colors.comment, bg = colors.black, italic = true },
-      BufferInactiveIndex = { fg = colors.nontext, bg = colors.black, italic = true },
+      BufferInactiveIndex = { fg = colors.green, bg = colors.black, italic = true },
       BufferInactiveMod = { fg = colors.green, bg = colors.black, italic = true },
-      BufferInactiveSign = { fg = colors.nontext, bg = colors.black, italic = true },
+      BufferInactiveSign = { fg = colors.green, bg = colors.black, italic = true },
       BufferInactiveTarget = { fg = colors.green, bg = colors.black, bold = true },
 
       -- Compe
@@ -481,13 +481,7 @@ local function setup(configs)
       rainbowcol7 = { fg = colors.fg },
 
       -- Rainbow delimiter
-      RainbowDelimitergreen = { fg = colors.fg },
       RainbowDelimitergreen = {fg = colors.green },
-      RainbowDelimiterBlue = {fg = colors.green },
-      RainbowDelimitergreen = { fg = colors.green },
-      RainbowDelimiterGreen = { fg = colors.green },
-      RainbowDelimiterViolet = { fg = colors.green },
-      RainbowDelimitergreen = { fg = colors.fg },
 
       -- mini.indentscope
       MiniIndentscopeSymbol = { fg = "#B5629B" },
@@ -498,10 +492,6 @@ local function setup(configs)
       MiniIconsBlue = { fg = colors.green },
       MiniIconsgreen = { fg = colors.green },
       MiniIconsGrey = { fg = colors.green },
-      MiniIconsgreen = { fg = colors.green },
-      MiniIconsgreen = { fg = colors.green },
-      MiniIconsgreen = { fg = colors.green },
-      MiniIconsgreen = { fg = colors.green },
 
 
       -- goolord/alpha-nvim
